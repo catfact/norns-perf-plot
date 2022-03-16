@@ -1,6 +1,6 @@
 [meta]
-norns version = "b4c4210f  (HEAD -> main, tag: v2.7.0, origin/main, origin/HEAD) 220306 (#1523)"
-softcut version = "865db6a  (HEAD) remove more boost stuff"
+norns_version = "b4c4210f  (HEAD -> main, tag: v2.7.0, origin/main, origin/HEAD) 220306 (#1523)"
+softcut_version = "865db6a  (HEAD) remove more boost stuff"
 N = 500
 period = 0.25
 
