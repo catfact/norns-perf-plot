@@ -1,0 +1,29 @@
+[meta]
+norns_version = "b4c4210  (HEAD -> main, tag: v2.7.0, origin/main, origin/HEAD) 220306 (#1523)"
+softcut_version = "865db6a  (HEAD, origin/remove-boost-from-lib) remove more boost stuff"
+N = 500
+period = 0.25
+
+
+[speed]
+"cpu_hz_start" = 1200000
+"cpu_hz_mid" = 1200000
+"cpu_hz_end" = 1200000
+
+
+[load]
+min = 73.167877197266
+max = 86.176177978516
+mean = 74.053750411987
+median = 73.950454711914
+q1 = 73.69225692749
+q3 = 74.220598220825
+
+
+[xruns]
+min = 0.0
+max = 0.0
+mean = 0.0
+median = 0.0
+q1 = 0.0
+q3 = 0.0
