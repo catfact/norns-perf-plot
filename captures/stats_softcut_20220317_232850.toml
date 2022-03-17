@@ -1,0 +1,29 @@
+[meta]
+norns_version = "8d905dc  (HEAD -> main, origin/main, origin/HEAD) Merge pull request #1530 from monome/softcut-norns-latest"
+softcut_version = "865db6a  (HEAD, origin/remove-boost-from-lib) remove more boost stuff"
+N = 500
+period = 0.25
+
+
+[speed]
+"cpu_hz_start" = 1500000
+"cpu_hz_mid" = 1500000
+"cpu_hz_end" = 1500000
+
+
+[load]
+min = 24.88304901123
+max = 29.510623931885
+mean = 25.367455303192
+median = 25.107488632202
+q1 = 25.030953407288
+q3 = 25.283364772797
+
+
+[xruns]
+min = 0.0
+max = 0.0
+mean = 0.0
+median = 0.0
+q1 = 0.0
+q3 = 0.0
