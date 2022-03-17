@@ -1,0 +1,29 @@
+[meta]
+norns_version = "e0714aaa  (HEAD -> crone-compiler-opts) add optimizxation flags to crone wscript"
+softcut_version = "4d8aa3a  (HEAD -> norns-latest, origin/norns-latest) Merge pull request #63 from monome/remove-boost-from-lib"
+N = 500
+period = 0.25
+
+
+[speed]
+"cpu_hz_start" = 1200000
+"cpu_hz_mid" = 1200000
+"cpu_hz_end" = 1200000
+
+
+[load]
+min = 64.25414276123
+max = 87.076278686523
+mean = 68.077935180664
+median = 67.058868408203
+q1 = 66.905902862549
+q3 = 67.57303237915
+
+
+[xruns]
+min = 0.0
+max = 7.0
+mean = 0.18
+median = 0.0
+q1 = 0.0
+q3 = 0.0

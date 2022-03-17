@@ -1,9 +1,9 @@
 from plot_baseline import *
+import glob
+import os
 
-# plot_data("captures/data_softcut_20220315_235751.csv",
-#           "plots/data_softcut_20220315_235751.svg")
-
-
-plot_data("captures/data_softcut_20220316_231750.csv",
-          "plots/data_softcut_20220316_231750.svg")
-
+datafiles = glob.glob("captures/data_softcut_*.csv")
+for datafile in datafiles:
+    plotfile = datafile.replace('captures/', 'plots/').replace('csv', 'svg')
+    if not os.path.exists(plotfile):
+        plot_data(datafile, plotfile)
