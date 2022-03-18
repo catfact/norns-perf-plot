@@ -1,0 +1,29 @@
+[meta]
+norns_version = "e0714aa  (HEAD -> 1532) add optimizxation flags to crone wscript"
+softcut_version = "865db6a  (HEAD, origin/remove-boost-from-lib) remove more boost stuff"
+N = 500
+period = 0.25
+
+
+[speed]
+"cpu_hz_start" = 1500000
+"cpu_hz_mid" = 1500000
+"cpu_hz_end" = 1500000
+
+
+[load]
+min = 22.237689971924
+max = 23.680955886841
+mean = 22.628912712097
+median = 22.612069129944
+q1 = 22.506999015808
+q3 = 22.748523712158
+
+
+[xruns]
+min = 0.0
+max = 0.0
+mean = 0.0
+median = 0.0
+q1 = 0.0
+q3 = 0.0
